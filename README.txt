@@ -8,5 +8,5 @@ kde jsem script spustil příkazem 'python3 GyipLog.py' a ověřil zda opravdu k
 - lze tedy založit cronjob pomocí 'crontab -e' a následně '0 0 1 * * /usr/bin/python3 /root/GzipLog.py' kde udávám celou cestu jak ke scriptu tak k pythonu 
 - Po uložení máme vytvořený cronjob který se spustí jednou za měsíc
 
-Script je navržen a archivování logů kvůli zmenšení velikosti. Jednoduchou úpravou scriptu můžeme ovšem dosáhnout na archivaci v jiných složkách a jiných souborů.
+Script je navržen na archivování logů kvůli zmenšení velikosti. Jednoduchou úpravou scriptu můžeme ovšem dosáhnout na archivaci v jiných složkách a jiných souborů.
 Lze tak např. archivovat staré programy nebo již nepožívaný kód.
